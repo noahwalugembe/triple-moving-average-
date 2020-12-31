@@ -1,16 +1,19 @@
-Discussion
+1_time_seriesanalysis.ipynb: 
+This notebook contains the the time series analysis
 
-From the S&P 500 OHLC data which was collected and analyzed in the methodology section of this research work a backtesting operation of various Triple moving average trading strategies was carried out. 
 
-Triple Exponential Moving Average (TEMA) trading rules where the first to experiment on the data and the researcher observed that during 2009-2013 the trending returns rose rapidly above buy and hold returns when the stock prices are raising from high unpredictability (Cluster 1) market regime to low instability or the sideways zone (Cluster 3) market regime. The results show that throughout the periods the portfolio value increased from $100 to $132 which is less than 253 the end portfolio return value obtained investing $100 in Buy and hold in the same periods.
+2_regeim_classification.ipynb:
+This notebook contains regeim_classification  Gaussian mixture 
+models (GMMs) clustering algorithm
 
-Triple Simple Moving Average (TSMA) was the second trading strategy to experiment on the data and the researcher observed that during 2001- 2003, the trending returns rose rapidly above buy and hold returns when the stock prices are falling from low instability or the sideways zone (Cluster 3) market regime to high unpredictability (Cluster 1) market regime. He also observed that again from the year 2009- 2013, the trending returns rose rapidly above buy and hold returns when the stock prices are raising from high unpredictability (Cluster 1) market regime to low instability or the sideways zone (Cluster 3) market regime. 
+3_Triple Exponential Moving Average.ipynb:
+This notebook contains Triple Exponential Moving Average results
 
-Comparing the portfolio return values from both Triple Exponential Moving Average (TEMA) and Triple Simple Moving Average (TSMA) clearly shows that it is practical to make money with both strategies However (TSMA) outperforms (TEMA) due to its ability to make money when the prices are falling or rising which is not the case for Triple Exponential Moving Average (TEMA). Even though you can achieve profitable returns with Triple Exponential Moving Average (TEMA) or Triple Simple Moving Average (TSMA) the Buy and Hold return are much better than the results achieved while trading with the two strategies.
+4_Triple Simple Moving Average (TEMA) trading strategy .ipynb:
+This notebook contains Triple Simple Moving Average (TEMA) trading strategy results
 
-After realizing that Triple Simple Moving Average (TSMA) slightly outperforms Triple Exponential Moving Average (TEMA) and buying and holding strategy outperforms both versions of Triple Moving Average trading strategy the researcher tried out something different to see if the performance of TSMA and TEMA can be improved. Short( 20 days), medium(30 days), and long term(50 days) values of Triple Simple Moving Average (TSMA)  and Triple Exponential Moving Average (TEMA) was crossed over hence forming a new trading strategy called Three Triple Moving Average Crossover and its two variations are Three Triple Exponential Moving Average (TTEMA) and Three Triple Simple Moving Average TTSMA)
+5_Three Triple Exponential Moving Average (TTEMA) trading strategy .ipynb:
+This notebook contains Three Triple Exponential Moving Average (TTEMA) trading strategy results
 
-Surpassingly crossing over Short( 20 days), medium(30 days) and long term(50 days) values of Triple Exponential Moving Average (TEMA) resulted in better trading returns throughout all market regimes and this can be observed from Figure 10 visualization. The results show that throughout the periods the portfolio value increased from $100 to $400 which is better than 335 the end portfolio return value obtained investing $100 in Buy and hold.
-
- Unfortunately crossing over Short( 20 days), medium(30 days) and long term(50 days) values of Triple  Simple Moving Average (TEMA) did not result in overall better portfolio returns as compared to investing $100 in Buy and hold. However according to figure 11 from the year 2000 to 2017 the strategy produced much more portfolio return value as compared to   Buy and hold. From the same figure, we can observe that Triple  Simple Moving Average (TEMA) strongly outperformed Triple Exponential Moving Average (TEMA) starting from the year 2000 to 2009. From the year 2000 to 2009 is a period when stock prices oscillate between low instability or the sideways zone (Cluster 3) and market regime and high unpredictability (Cluster 1) market regime.
-
+6_Three Triple Simple Moving Average (TTEMA) trading strategy .ipynb
+This notebook contains Three Triple Simple Moving Average (TTEMA) trading strategy results
